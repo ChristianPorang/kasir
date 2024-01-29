@@ -1,0 +1,52 @@
+CRITICAL - 2024-01-29 07:04:41 --> Argument 2 passed to CodeIgniter\Model::insert() must be of the type bool, array given, called in C:\xampp\htdocs\csh\app\Controllers\Home.php on line 143
+#0 C:\xampp\htdocs\csh\app\Controllers\Home.php(143): CodeIgniter\Model->insert('user', Array)
+#1 C:\xampp\htdocs\csh\system\CodeIgniter.php(832): App\Controllers\Home->aksi_register()
+#2 C:\xampp\htdocs\csh\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\csh\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\csh\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\csh\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-01-29 07:27:30 --> mysqli_query() expects parameter 1 to be mysqli, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', 'C:\\xampp\\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\csh\app\Views\barang\laporan.php(4): mysqli_query(NULL, 'SELECT * FROM l...')
+#2 C:\xampp\htdocs\csh\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\csh\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\csh\system\Common.php(1089): CodeIgniter\View\View->render('barang/laporan', Array, true)
+#5 C:\xampp\htdocs\csh\app\Controllers\Home.php(97): view('barang/laporan')
+#6 C:\xampp\htdocs\csh\system\CodeIgniter.php(832): App\Controllers\Home->laporan()
+#7 C:\xampp\htdocs\csh\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\csh\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\csh\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\csh\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-01-29 07:27:55 --> mysqli_query() expects parameter 1 to be mysqli, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', 'C:\\xampp\\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\csh\app\Views\barang\laporan.php(4): mysqli_query(NULL, 'SELECT * FROM l...')
+#2 C:\xampp\htdocs\csh\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\csh\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\csh\system\Common.php(1089): CodeIgniter\View\View->render('barang/laporan', Array, true)
+#5 C:\xampp\htdocs\csh\app\Controllers\Home.php(97): view('barang/laporan')
+#6 C:\xampp\htdocs\csh\system\CodeIgniter.php(832): App\Controllers\Home->laporan()
+#7 C:\xampp\htdocs\csh\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\csh\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\csh\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\csh\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-01-29 07:51:56 --> Invalid file: navbar.php
+#0 C:\xampp\htdocs\csh\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('navbar.php')
+#1 C:\xampp\htdocs\csh\system\Common.php(1089): CodeIgniter\View\View->render('navbar', Array, true)
+#2 C:\xampp\htdocs\csh\app\Controllers\Home.php(18): view('navbar')
+#3 C:\xampp\htdocs\csh\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\csh\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\csh\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\csh\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\csh\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-29 08:07:45 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\csh\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home')
+#1 C:\xampp\htdocs\csh\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home')
+#2 C:\xampp\htdocs\csh\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\csh\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\csh\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\csh\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
